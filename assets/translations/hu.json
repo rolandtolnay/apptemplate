@@ -1,0 +1,45 @@
+{
+  "common": {
+    "continue": "TODO",
+    "get_started": "TODO",
+    "got_it": "TODO",
+    "error": {
+      "unexpected": "TODO"
+    },
+    "view": "TODO",
+    "save": "TODO",
+    "edit": "TODO",
+    "report_issue": "TODO",
+    "submit": "TODO",
+    "read_more": "TODO",
+    "update_available": "TODO",
+    "ready_to_level_up": "TODO",
+    "our_latest_update": "TODO",
+    "update": "TODO",
+    "later": "TODO",
+    "cancel": "TODO",
+    "confirm": "TODO",
+    "read_less": "TODO",
+    "notifications": {
+      "sheet_title": "TODO",
+      "sheet_description": "TODO",
+      "enable": "TODO"
+    },
+    "not_now": "TODO",
+    "are_you_sure": "TODO",
+    "discard_my_changes": "TODO",
+    "nevermind": "TODO",
+    "add": "TODO",
+    "search": "TODO",
+    "app_name": "TODO"
+  },
+  "auth": {
+    "sign_in": "TODO",
+    "sign_out": "TODO",
+    "sign_in_later": "TODO",
+    "by_proceeding": "TODO",
+    "terms_conditions": "TODO",
+    "and_the": "TODO",
+    "privacy_policy": "TODO"
+  }
+}
