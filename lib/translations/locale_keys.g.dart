@@ -40,5 +40,8 @@ abstract class  LocaleKeys {
   static const auth_and_the = 'auth.and_the';
   static const auth_privacy_policy = 'auth.privacy_policy';
   static const auth = 'auth';
+  static const root_explore = 'root.explore';
+  static const root_profile = 'root.profile';
+  static const root = 'root';
 
 }

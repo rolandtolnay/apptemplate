@@ -1,5 +1,4 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class NmdCachedNetworkImage extends StatelessWidget {
@@ -20,11 +19,8 @@ class NmdCachedNetworkImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final url =
-        kIsWeb ? 'https://proxy-xa55dnxjmq-uc.a.run.app/$imageUrl' : imageUrl;
-
     return CachedNetworkImage(
-      imageUrl: url,
+      imageUrl: imageUrl,
       fit: fit,
       fadeInDuration: fadeInDuration,
       fadeOutDuration: fadeOutDuration,

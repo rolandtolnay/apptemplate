@@ -73,7 +73,6 @@ class NmdTypography {
         color: Colors.white,
       );
 
-  /// Used for address beneath title
   TextStyle get subtitleLarge => const TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: 15,
@@ -81,7 +80,7 @@ class NmdTypography {
         color: Color(0xff707070),
       );
 
-  /// Used for short text like phone number
+  /// Used for short text like
   TextStyle get subtitleSmall => const TextStyle(
         fontWeight: FontWeight.w400,
         fontSize: 14,
@@ -89,7 +88,7 @@ class NmdTypography {
         color: Color(0xff363636),
       );
 
-  /// Used for long text like activity description
+  /// Used for long text
   TextStyle get bodyMedium => const TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: 14,
@@ -104,7 +103,7 @@ class NmdTypography {
         color: Color(0xff454545),
       );
 
-  /// Used for short title text phone section title
+  /// Used for short title
   TextStyle get label => const TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: 13,
@@ -112,7 +111,7 @@ class NmdTypography {
         color: Color(0xff5f5f5f),
       );
 
-  /// Used for short subtitles like review time ago
+  /// Used for short subtitles
   TextStyle get labelSmall => const TextStyle(
         fontWeight: FontWeight.w300,
         fontSize: 12,

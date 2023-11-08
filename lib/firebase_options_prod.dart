@@ -35,7 +35,7 @@ class DefaultFirebaseOptions {
     }
   }
 
-  // TODO(developer): Replace with values from Firebase
+  // TODO(developer): Replace with values from prod Firebase
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: '',
     appId: '',

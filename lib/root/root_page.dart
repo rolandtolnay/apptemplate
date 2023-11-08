@@ -7,7 +7,10 @@ import '../common/app_update/app_update_provider.dart';
 import '../common/domain/remote_config/remote_config_repository.dart';
 import '../common/push_notification/push_notification_provider.dart';
 import '../common/use_init_hook.dart';
+import 'app_tab_enum.dart';
 import 'domain/injectable.dart';
+import 'nmd_bottom_navigation_bar.dart';
+import 'nmd_primary_tab_button.dart';
 
 class RootPage extends HookConsumerWidget {
   static Route<dynamic> route() {
@@ -28,8 +31,12 @@ class RootPage extends HookConsumerWidget {
       }
     });
 
-    // TODO(developer): Implement your root page
-    return const Scaffold();
+    return Scaffold(
+      floatingActionButton: const NmdPrimaryTabButton(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: const NmdBottomNavigationBar(),
+      body: ref.watch(appTabProvider).buildWidget(),
+    );
   }
 
   void _checkForAppUpdates(WidgetRef ref, BuildContext context) {

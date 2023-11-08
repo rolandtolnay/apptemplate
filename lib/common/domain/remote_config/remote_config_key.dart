@@ -14,7 +14,7 @@ enum RemoteConfigKey {
     };
   }
 
-  // TODO(developer): add terms and privacy url's
+  // TODO(developer): Add default terms and privacy url's
   RemoteConfigValue<dynamic> get defaultValue {
     return switch (this) {
       RemoteConfigKey.privacyUrl => RemoteConfigValueString(

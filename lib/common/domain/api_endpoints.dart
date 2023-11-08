@@ -1,6 +1,6 @@
 import '../../nmd_environment.dart';
 
 class ApiEndpoints {
-  // TODO(developer): add api base url
+  // TODO(developer): Add api base url and other backend urls
   static const baseUrl = NmdEnvironment.isDev ? '' : '';
 }

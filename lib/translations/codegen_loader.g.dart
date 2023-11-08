@@ -57,6 +57,10 @@ class CodegenLoader extends AssetLoader{
     "terms_conditions": "TODO",
     "and_the": "TODO",
     "privacy_policy": "TODO"
+  },
+  "root": {
+    "explore": "TODO",
+    "profile": "TODO"
   }
 };
 static const Map<String,dynamic> en = {
@@ -102,6 +106,10 @@ static const Map<String,dynamic> en = {
     "terms_conditions": "Terms and Conditions",
     "and_the": " and the ",
     "privacy_policy": "Privacy Policy"
+  },
+  "root": {
+    "explore": "Explore",
+    "profile": "Profile"
   }
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"hu": hu, "en": en};

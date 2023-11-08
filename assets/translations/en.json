@@ -41,5 +41,9 @@
     "terms_conditions": "Terms and Conditions",
     "and_the": " and the ",
     "privacy_policy": "Privacy Policy"
+  },
+  "root": {
+    "explore": "Explore",
+    "profile": "Profile"
   }
 }
